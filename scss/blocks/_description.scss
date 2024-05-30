@@ -1,0 +1,48 @@
+.description {
+    margin-top: 60px;
+}
+.description__wrapper {
+    display: flex;
+    justify-content: center;
+}
+.description__text {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    background-color: #413b66c0;
+    padding: 60px 0px 60px 60px;
+}
+.description__slogan {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 500px;
+}
+.slogan__title {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45px;
+    color: var(--color-white);
+}
+.description__button {
+    display: flex;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color-white);
+    background-color: var(--bg-button);
+    width: 170px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.description__subtitle {
+    width: 600px;
+}
+.description__video {
+    width: 450px;
+    height: 618px;
+    background-color: var(--bg-violet);
+}
