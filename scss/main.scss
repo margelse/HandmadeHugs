@@ -1,3 +1,12 @@
-.container {
-    max-width: 1280px;
-}
+/*Base*/
+@import "base/reset";
+@import "base/sizes";
+@import "base/vars";
+
+/*Blocks*/
+@import "blocks/header";
+@import "blocks/description";
+
+/*Sections*/
+@import "section/subtitle";
+@import "section/video";
