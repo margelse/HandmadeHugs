@@ -30,6 +30,11 @@
     height: 60px;
     align-items: center;
     justify-content: center;
+    transition:0.3s;
+}
+.description__button:hover {
+    box-shadow: 10px 5px 5px #1e1b30d0;
+    transition:0.3s;
 }
 
 .description__video {

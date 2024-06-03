@@ -1,0 +1,11 @@
+.catalog__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+.catalog__cards {
+    display: flex;
+    gap: 20px;
+}
