@@ -1,0 +1,14 @@
+.other__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.other__cards {
+    display: flex;
+    justify-content: space-between;
+}
+.card-other__image {
+    max-width: 355px;
+    height: 375px;
+    object-fit: cover; 
+}
