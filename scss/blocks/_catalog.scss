@@ -13,4 +13,12 @@
     overflow-x: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+.catalog__cards::-webkit-scrollbar {
+    display: none; /* Скрыть полосу прокрутки в Chrome и Safari */
+  }
+.catalog__cards {
+    scrollbar-width: none; /* Скрыть полосу прокрутки в Firefox */
+  }

@@ -7,10 +7,19 @@
 .other__cards {
     display: flex;
     gap: 20px;
+    justify-content: space-between;
     overflow-x: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+.other__cards::-webkit-scrollbar {
+    display: none; /* Скрыть полосу прокрутки в Chrome и Safari */
+  }
+.other__cards {
+    scrollbar-width: none; /* Скрыть полосу прокрутки в Firefox */
+  }
 .card-other__image {
     max-width: 355px;
     height: 375px;
