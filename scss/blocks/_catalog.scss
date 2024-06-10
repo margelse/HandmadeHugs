@@ -4,8 +4,13 @@
     gap: 35px;
     padding-top: 80px;
     padding-bottom: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .catalog__cards {
     display: flex;
     gap: 20px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
 }

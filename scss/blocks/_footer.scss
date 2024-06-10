@@ -1,0 +1,23 @@
+.footer {
+    background-color: var(--bg-violet);
+    height: 80px;
+}
+.footer__wrapper {
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media screen and (max-width:490px) {
+    .footer__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.footer__contacts {
+    display: flex;
+    gap: 24px;
+}

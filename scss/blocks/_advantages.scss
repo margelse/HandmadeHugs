@@ -11,9 +11,16 @@
 .advantages__cards {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .advantages__card {
     width: 270px;
+    padding: 10px 15px 10px 15px;
+}
+@media screen and (max-width:550px) {
+    .advantages__card {
+        width: auto;
+    }
 }
 .advantages__info {
     margin-top: 16px;
