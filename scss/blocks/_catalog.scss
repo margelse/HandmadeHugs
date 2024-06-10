@@ -4,8 +4,21 @@
     gap: 35px;
     padding-top: 80px;
     padding-bottom: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .catalog__cards {
     display: flex;
     gap: 20px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+.catalog__cards::-webkit-scrollbar {
+    display: none; /* Скрыть полосу прокрутки в Chrome и Safari */
+  }
+.catalog__cards {
+    scrollbar-width: none; /* Скрыть полосу прокрутки в Firefox */
+  }

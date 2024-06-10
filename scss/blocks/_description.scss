@@ -12,11 +12,24 @@
     background-color: #413b66c0;
     padding: 60px 0px 60px 60px;
 }
+@media screen and (max-width:660px) {
+    .description__text {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        padding: 40px 20px 40px 40px;
+    }
+}
 .description__slogan {
     display: flex;
     flex-direction: column;
     gap: 40px;
     width: 500px;
+}
+@media screen and (max-width:660px) {
+    .description__slogan {
+        width: auto;
+    }
 }
 .description__button {
     display: flex;
@@ -41,4 +54,9 @@
     width: 350px;
     height: 618px;
     background-color: var(--bg-violet);
+}
+@media screen and (max-width:990px) {
+    .description__video {
+        display: none;
+    }
 }
